@@ -20,7 +20,6 @@ const generateDataPoint = (prevData) => {
 };
 
 function Dashboard() {
-    // State now holds an array of data points
     const [dataHistory, setDataHistory] = useState(() => [generateDataPoint()]);
 
     useEffect(() => {
@@ -57,13 +56,13 @@ function Dashboard() {
                     data={dataHistory}
                     title="Temperature History (°C)"
                     dataKey="temperature"
-                    color="#fb923c" // An orange color
+                    color="#fb923c" 
                 />
                 <ChartCard
                     data={dataHistory}
                     title="pH Level History"
                     dataKey="ph"
-                    color="#38bdf8" // A blue color
+                    color="#38bdf8"
                 />
             </div>
         </main>
