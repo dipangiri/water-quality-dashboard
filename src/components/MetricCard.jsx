@@ -26,7 +26,6 @@ function MetricCard({ title, value, unit }) {
 
     return (
         <div className={`bg-slate-800 p-6 rounded-lg shadow-md border-l-4 ${borderColor} transition-all duration-300 hover:shadow-xl hover:-translate-y-1`}>
-            { }
             <h2 className="text-sm font-medium text-slate-400">{title}</h2>
             <div className="mt-2 flex items-baseline">
                 <p className="text-3xl font-semibold text-white">{value}</p>
