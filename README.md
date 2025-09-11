@@ -1,12 +1,17 @@
-# React + Vite
+# 💧 Water Quality Monitoring System Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+The **Water Quality Monitoring System Dashboard** is a web-based application that visualizes and tracks real-time water quality parameters. It provides an interactive and user-friendly interface for monitoring data such as **pH, turbidity, dissolved oxygen, temperature, and TDS levels**.  
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 📊 Interactive dashboard with charts and graphs  
+- 🌐 Real-time data visualization  
+- ⚠️ Alerts for unsafe water quality levels  
+- 📱 Responsive design for desktop and mobile  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript, React  
+- **Styling:** Tailwind CSS  
+- **Backend:** Node.js / Express
+- **Database:** MySQL
+- **API Integration:** For IoT sensors or mock data 
